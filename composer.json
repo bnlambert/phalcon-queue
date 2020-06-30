@@ -1,0 +1,31 @@
+{
+    "name": "bnlambert/phalcon-queue",
+    "description": "Phalcon 4.x Queue",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boyong Nangwei Lambert",
+            "email": "blbnlambert34@gmail.com"
+        }
+    ],
+    "require": {
+        "enqueue/dbal": "^0.10.1",
+        "enqueue/dsn": "^0.10.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "phalcon/incubator-test": "^v1.0.0-alpha.1"
+    },
+	"autoload": {
+        "psr-4": {
+            "BNLambert\\Phalcon\\Queue\\": "src/"
+
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BNLambert\\Phalcon\\Queue\\Tests\\": "src/tests/"
+        }
+    }
+}
